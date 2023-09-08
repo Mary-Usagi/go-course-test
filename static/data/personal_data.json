@@ -1,32 +1,32 @@
 {
-    "Name": "Jane Foster",
-    "Title": "Software Engineer",
-    "About": "Welcome to my portfolio website! As a passionate software engineer, I showcase my skills, projects, and expertise in web development. Explore my work and get in touch to discuss exciting opportunities!",
+    "Name": "Marie Curie",
+    "Title": "Physicist and Chemist",
+    "About": "Marie Curie was the first woman to win the Nobel Prize and the first person to ever win it twice. She discovered the chemical elements radium and polonium, and pioneered research in radioactivity. She also developed mobile X-ray units for medical use during World War I.",
     "Projects": [
         {
-            "Title": "E-commerce Platform",
-            "Description": "Developed a scalable e-commerce platform using Go and React, enabling seamless online shopping experiences. Implemented features such as product catalog, shopping cart, and secure payment integration.",
-            "Link": "https://example.com/project1"
+            "Title": "Isolation of Polonium and Radium",
+            "Description": "Marie Curie and her husband Pierre Curie isolated two new radioactive elements from pitchblende, a mineral containing uranium. They named them polonium, after Marie's native country Poland, and radium, after the Latin word for ray. They also measured the atomic mass of radium and determined its place in the periodic table.",
+            "Link": "https://www.globalcitizen.org/en/content/17-top-female-scientists-who-have-changed-the-worl/"
         },
         {
-            "Title": "Data Analytics Dashboard",
-            "Description": "Built a data analytics dashboard using Python and Tableau, enabling real-time insights and visualization of key business metrics. Integrated data from various sources and created interactive visualizations for informed decision-making.",
-            "Link": "https://example.com/project2"
+            "Title": "Radioactivity of Thorium",
+            "Description": "Marie Curie discovered that thorium, another element, also emitted radiation. She coined the term radioactivity to describe this phenomenon, and showed that it was a property of the atom, not a chemical reaction. She also developed methods to measure the intensity of radiation using an electrometer.",
+            "Link": "https://www.thoughtco.com/famous-women-scientists-3528329"
         },
         {
-            "Title": "Smart Home Automation",
-            "Description": "Developed a smart home automation system using IoT technologies and a mobile app. The system allows users to remotely control and monitor home appliances, lighting, and security systems.",
-            "Link": "https://example.com/project3"
+            "Title": "Mobile X-ray Units",
+            "Description": "Marie Curie recognized the potential of X-rays for medical diagnosis and treatment, especially during wartime. She organized the installation of X-ray equipment in cars and trucks, which she called petites Curies, or little Curies. She also trained nurses and doctors on how to use them safely and effectively.",
+            "Link": "https://bing.com/search?q=famous+female+scientist"
         }
     ],
     "Networks": [
         {
-            "Name": "LinkedIn",
-            "Link": "https://www.linkedin.com/in/jane-foster"
+            "Name": "Sorbonne University",
+            "Link": "https://www.forbes.com/sites/nickmorrison/2022/11/01/revealed-the-worlds-top-female-scientists-in-2022/"
         },
         {
-            "Name": "GitHub",
-            "Link": "github.com/jane-foster"
+            "Name": "Curie Institute",
+            "Link": "https://mymodernmet.com/famous-female-scientists/"
         }
     ]
 }
