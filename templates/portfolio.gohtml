@@ -95,42 +95,44 @@
     </style>
 </head>
 
+
 <body>
     <div class="container">
         <header>
-            <h1> [TODO: add your name] </h1>
-            <h2> [TODO: add your title] </h2>
+            <h1>{{ .Name }}</h1>
+            <h2>{{ .Title }}</h2>
             <br>
             <img src="data/profile.jpg" class="profile-img" alt="Profile Photo">
             <br>
             <ul class="networks-list">
-                [TODO: range over networks]
-                <li><a href="[TODO: add network link]" target="_blank"> [TODO: add network name] </a></li>
-
+                {{ range .Networks }}
+                <li><a href="{{ .Link }}" target="_blank"> {{ .Name }} </a></li>
+                {{ end }}
             </ul>
         </header>
 
         <section id="about">
             <h3>About Me</h3>
-            <p> [TODO: add your about description] </p>
+            <p>{{ .About }}</p>
         </section>
 
         <section id="projects">
             <h3>Projects</h3>
             <div class="projects-container">
-                [TODO: range over projects]
-                    <div class="card project-card">
-                        <div class="card-body">
-                            <h5 class="card-title text-center"> [TODO: add project title] </h5>
-                            <p class="card-text"> [TODO: add project description] </p>
-                            <a href=" [TODO: add project link] " class="btn btn-primary mt-auto">View Project</a>
-                        </div>
+                {{ range .Projects }}
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{ .Title }}</h5>
+                        <p class="card-text">{{ .Description }}</p>
+                        <a href="{{ .Link }}" class="btn btn-primary mt-auto">View Project</a>
                     </div>
+                </div>
+                {{ end }}
             </div>
         </section>
 
         <footer>
-            <p class="text-center">© [TODO: add your Name] . All rights reserved.</p>
+            <p class="text-center">© {{ .Name }}. All rights reserved.</p>
         </footer>
     </div>
 </body>
